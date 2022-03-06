@@ -4,6 +4,12 @@ google-auth-oauthlib>=0.4.1,<0.10.0
 python-dotenv>=0.10
 tenacity>=6.0.0 
 python-magic
+requests
+beautifulsoup4
+selenium
+pyrogram
+tgcrypto
+lxml
 streamlink
 youtube-dl
 git+https://github.com/yt-dlp/yt-dlp

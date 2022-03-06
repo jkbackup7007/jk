@@ -16,12 +16,11 @@ import requests
 from lxml import etree
 
 # Adding Bot CLient
-SUDO_USER = [1862995182, 664418878, -
-             1001519679213, -1001437242938, -1001368224697]
+SUDO_USER = [678914268, -1001437242938]
 bot = Client('aio3module',
-             api_id=1460212,
-             api_hash="541edeae8d883917e5bda002185c8ffa",
-             bot_token='5235219181:AAET8A7eqU44DwzyyUl82l4zibkidfVYJnI',
+             api_id=935976,
+             api_hash="a31a2b66e2ea37bb9f815920e5370417",
+             bot_token='5267654852:AAFH-vJrquSOR7GtlOL6xxjLgHk9k9AQ7ZA',
              workers=50,
              sleep_threshold=10)
 # Start Command

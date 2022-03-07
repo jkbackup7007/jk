@@ -6,6 +6,7 @@ tenacity>=6.0.0
 python-magic
 requests
 beautifulsoup4
+cloudscraper
 selenium
 pyrogram
 tgcrypto

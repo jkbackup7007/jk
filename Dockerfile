@@ -46,11 +46,15 @@ ENV DEBIAN_FRONTEND noninteractive
 # sets the TimeZone, to be used inside the container
 ENV TZ Asia/Kolkata
 
-# rclone ,gclone and fclone
+# rclone
 RUN curl https://rclone.org/install.sh | bash
 
 #COPY requirements.txt .
 #RUN pip3 install --no-cache-dir -r requirements.txt
+
+#drive downloader
+RUN curl -L https://github.com/jaskaranSM/drivedlgo/releases/download/1.5/drivedlgo_1.5_Linux_x86_64.gz -o drivedl.gz && \
+    7z x drivedl.gz && mv drivedlgo /usr/bin/drivedl && chmod +x /usr/bin/drivedl && rm drivedl.gz
 
 #gdrive setupz
 RUN wget -P /tmp https://dl.google.com/go/go1.17.1.linux-amd64.tar.gz
